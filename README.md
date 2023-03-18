@@ -20,7 +20,7 @@ Write a Solidity function to check the balance of a given address.
 - I have just added a view knowBalance function to the previous code.
 
 
-##Question-5
+## Question-5
 Write a Solidity function to implement a voting system, where each address can vote only once.
 - Here addresses can caste their vote either to A or B, which as index is sent when casteVote is called. Mapping is used to know the voting status (True - casted vote, False - not yet casted). Once voted the vote status is updated. 
 
