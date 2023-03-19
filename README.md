@@ -24,3 +24,6 @@ Write a Solidity function to check the balance of a given address.
 Write a Solidity function to implement a voting system, where each address can vote only once.
 - Here addresses can caste their vote either to A or B, which as index is sent when casteVote is called. Mapping is used to know the voting status (True - casted vote, False - not yet casted). Once voted the vote status is updated. 
 
+## Question-6
+Write a Solidity function to implement a time-locked contract, which allows funds to be withdrawn only after a certain time has elapsed.
+- Time in solidity is found by block.timestamp function which is unix epoch based, time in solidity is measuerd in seconds and days, weeks, years corresponds to its number of seconds. 
