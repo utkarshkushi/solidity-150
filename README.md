@@ -32,3 +32,7 @@ Write a Solidity function to implement a time-locked contract, which allows fund
 Write a Solidity function to implement a basic ERC-20 token.
 - Here i am importing ERC20 token from open Zeppeliin and inheriting ERC20 into the contract, defined an constructor and also ERC20 constructor taking name and symbol of the token. The constructor invokes teh _mint() function transfering 10 tokens to the address deploying the contract. 
 
+## Question-8
+write a Solidity contract where users can send ETH and buy ERC20 tokens
+- The code here is extension of the above solution. Here the _mint() is not called in the constructor but s called by a function buyTokens(). we set the price of tokens, you get 10 tokens for 1 ETH.
+
