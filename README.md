@@ -27,3 +27,8 @@ Write a Solidity function to implement a voting system, where each address can v
 ## Question-6
 Write a Solidity function to implement a time-locked contract, which allows funds to be withdrawn only after a certain time has elapsed.
 - Time in solidity is found by block.timestamp function which is unix epoch based, time in solidity is measuerd in seconds and days, weeks, years corresponds to its number of seconds. 
+
+## Question-7
+Write a Solidity function to implement a basic ERC-20 token.
+- Here i am importing ERC20 token from open Zeppeliin and inheriting ERC20 into the contract, defined an constructor and also ERC20 constructor taking name and symbol of the token. The constructor invokes teh _mint() function transfering 10 tokens to the address deploying the contract. 
+
