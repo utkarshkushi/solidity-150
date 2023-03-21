@@ -12,10 +12,10 @@ contract ExampleToken is ERC20{
 
     uint256 public TokenPerEth = 10;
 
-    function buyTokens() public payable (
+    function buyTokens() public payable {
         require(msg.value > 0, "send enough eth");
         _mint(msg.sender, msg.value * 10 * 10**18);
-    )
+    }
 
 
 }
