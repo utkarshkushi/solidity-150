@@ -36,3 +36,6 @@ Write a Solidity function to implement a basic ERC-20 token.
 write a Solidity contract where users can send ETH and buy ERC20 tokens
 - The code here is extension of the above solution. Here the _mint() is not called in the constructor but s called by a function buyTokens(). we set the price of tokens, you get 10 tokens for 1 ETH.
 
+## Question-9
+write a smart contract implementing multi signature wallet, that requires a bunch of addresses to sign the transaction before it is executed
+- multi signing of transaction is used to secure the transaction being made on the funds which is owned by multiple people and also it is done to secure the transaction. Here I have decalred a array of owners and noOfVotes variable to decide the number of votes required to su=ign the transaction. 
