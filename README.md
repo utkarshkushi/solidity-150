@@ -38,4 +38,8 @@ write a Solidity contract where users can send ETH and buy ERC20 tokens
 
 ## Question-9
 write a smart contract implementing multi signature wallet, that requires a bunch of addresses to sign the transaction before it is executed
-- multi signing of transaction is used to secure the transaction being made on the funds which is owned by multiple people and also it is done to secure the transaction. Here I have decalred a array of owners and noOfVotes variable to decide the number of votes required to su=ign the transaction. 
+- multi signing of transaction is used to secure the transaction being made on the funds which is owned by multiple people and also it is done to secure the transaction. Here I have decalred a array of owners and noOfVotes variable to decide the number of votes required to su=ign the transaction.
+
+## Question-10
+write a smart contract implementing staking system, where the user will be rewrded with some pecent of interest for staking his tokens
+- in this contract, when a address delpoys the erc20 token contract he gets 1/2 of the capped supply to himself which he can use to reward to people when they stake their tokens. When the user completes the staking period he will be rewarded extra tokens 
