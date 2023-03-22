@@ -43,3 +43,7 @@ write a smart contract implementing multi signature wallet, that requires a bunc
 ## Question-10
 write a smart contract implementing staking system, where the user will be rewrded with some pecent of interest for staking his tokens
 - in this contract, when a address delpoys the erc20 token contract he gets 1/2 of the capped supply to himself which he can use to reward to people when they stake their tokens. When the user completes the staking period he will be rewarded extra tokens 
+
+## Question 11
+Write a Solidity function to implement a blind auction, where bidders submit sealed bids and the highest bidder wins.
+- pretty straight forward requirement. 
