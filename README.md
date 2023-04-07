@@ -47,3 +47,11 @@ write a smart contract implementing staking system, where the user will be rewrd
 ## Question 11
 Write a Solidity function to implement a blind auction, where bidders submit sealed bids and the highest bidder wins.
 - pretty straight forward requirement. 
+
+## Question 12
+Write two smart contrcats in such a way that one contract issues you NFTs and another contract whuch issues you event Pass NFTs only if you hold Tokens from the first contract.
+- The solution followed here is very straight forward implementing interface concept. I have deployed these conytracts on sepolai testnets interact with it and let me know
+- 1st contract issuing NFTs - https://sepolia.etherscan.io/address/0x475Bf7b7fC581c6A225C5f20361A925FCBb98eeD (call the newToken function from write contract section)
+- 2nd contract issues event pass NFTs when you hold tokens from the above contract - https://sepolia.etherscan.io/address/0x5e63f04300E678ec9C633f0039602081ad2185FC 
+(call the newToken function from write contract section)  
+- The code is available at IssuedPass repo in my profile.
